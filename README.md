@@ -99,9 +99,17 @@ Overall, the risks include misinterpretation or inconsistent application of guid
 
 (Source: article2.pdf, pages 5, 7)
 
-7. [Methods Analyst]: The search did not retrieve any specific details about the technical setup or architectural components of the system proposed in article3.pdf from the available data. The extracted contents mostly relate to guidelines, user studies, and design phases, but not the system architecture or technical setup.
+7. [Methods Analyst]: The article3.pdf does not explicitly describe a technical setup or architectural components of a system for prompt engineering. Instead, the paper discusses prompt engineering primarily as a skill and practice for effectively communicating with AI systems.
 
-If you can provide a specific section or page number, or describe the part of the paper that contains the system architecture or technical setup, I can try to focus the search further.
+What is described in some detail is the composition of a good prompt, which typically includes:
+- Instruction: A specific task or command directing the model's behavior.
+- Context: External information or background to help generate relevant responses.
+- Input data: The actual content to be processed or solved.
+- Output indicator: Specifies the type or format of the desired output.
+
+The article focuses on how prompt engineering involves precise, unambiguous formulation of these components to optimize AI performance rather than on details of a computing system or architecture.
+
+Reference: article3.pdf, Pages 5-7.
 
 8. [Methods Analyst]: According to article3.pdf, the four components of the proposed conceptual framework for Prompt Engineering are:
 
@@ -115,12 +123,17 @@ If you can provide a specific section or page number, or describe the part of th
 
 These four components together form the conceptual framework that defines Prompt Engineering as a 21st-century skill.
 
-9. [Skeptical Reviewer]: The documents I have accessed do not contain explicit discussions of limitations or shortcomings specific to the findings in article3.pdf. Instead, the excerpts mostly focus on guideline clarifications, evaluation processes, and relevance assessments from other documents.
+9. [Skeptical Reviewer]: The authors in article3.pdf discuss the following limitations or shortcomings related to prompt engineering:
 
-To answer your question accurately about article3.pdf's limitations or shortcomings as discussed by the authors, I would need direct access to the sections or text within article3.pdf that address these aspects.
+- There is no exhaustive list of requirements for being precise in prompt formulations yet, indicating the field is still developing in defining prompt literacy comprehensively (page 6).      
+- Ambiguity or lack of specificity in prompts can cause large language models to wander away from the desired solution (page 6).
+- Ill-formulated prompts may reinforce biases present in the AI (page 6).
+- Avoidance of common pitfalls in prompt engineering might not always be necessary because users can iteratively improve inputs or become aware of the limitations of suboptimal prompts, which helps avoid incorrect conclusions (page 6).
 
-If you can provide the relevant text or images from article3.pdf discussing limitations, I can help analyze and summarize them. Otherwise, I currently do not have the information on the limitations of article3.pdf in the materials accessible to me.
+These points suggest that while prompt engineering is promising as a new skill, challenges remain in standardizing what constitutes effective prompts and how biases or ambiguities are managed in practice.
 
+Reference:
+- Federiakin D, Molerov D, Zlatkin-Troitschanskaia O and Maur A (2024) Prompt engineering as a new 21st century skill. Front Educ. Pages 6. (article3.pdf)
 
 
 # Any additional comments (optional)
